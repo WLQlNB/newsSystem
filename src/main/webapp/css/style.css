@@ -8,8 +8,9 @@
 }
 .countryarea{
 	resize:none;
+	/*position: absolute;*/
 	height:200px;
-	width:200px;	
+	width:200px;
 }
 
 .z{
@@ -18,7 +19,7 @@
 
 .news{
 	position: absolute;
-	left: 300px;	
+	left: 300px;
 }
 
 .i{
@@ -43,7 +44,7 @@
 	left: 200px;
 	top: 125px;
 	width: 1165px;
-	height: 470px;	
+	height: 470px;
 }
 
 .iframeContent{

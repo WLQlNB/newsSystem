@@ -5,39 +5,37 @@
   Time: 21:55
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page pageEncoding="UTF-8" isELIgnored="false" language="java" %>
+<!DOCTYPE html>
 <html>
 <head>
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
 </head>
 <body>
-<%@ include file="top.jsp" %>
+<%@include file="top.jsp"%>
 <script type="text/javascript">
-    function login() {
+    function reg(){
 
     }
 </script>
 
-<img src="pageContext.request.contextPathpageContext.request.contextPath/img/logo.JPG" height="52" alt="中国新闻网"
-     align="left">
-<img src="pageContext.request.contextPath/img/2.JPG" width="139" height="22" alt="中国新闻网">
-<form action="" method="post">
+<form action="${pageContext.request.contextPath }/user/doLogin" method="post">
     <div class="login">
         <tr>
-            用户名:<input type="text" name="id" placeholder="请输入用户名">
+            用户名:<input type="text" name="id" placeholder="请输入用户名" >
             密&nbsp;&nbsp;码：<input type="text" name="pwd" placeholder="请输入密码">
             <input type="submit" value="登录"/>
-            <button type="button" onclick="location.href">注册</button>
+            <button type="button" onclick="reg()">注册</button>
         </tr>
     </div>
 </form>
 <br>
 <center>
-    <img src="pageContext.request.contextPath/img/1.JPG" width="770" height="90" border="0" alt="">
+    <img src="${pageContext.request.contextPath }/img/1.JPG" width="770" height="90" border="0" alt="">
 </center>
 
-<div class="z">
+<div class="z" >
     <a href="https://www.chinanews.com/">国内</a>
     <a href="http://world.huanqiu.com/?agt=15438">国际</a>
     <a href="http://mil.huanqiu.com/?agt=15438">军事</a>
@@ -57,8 +55,7 @@
     <a href="https://tech.qq.com/science.htm">探索</a>
     <a href="http://www.5linglei.com/">另类</a>
 </div>
-<hr/>
-
+<hr />
 <div class="news">
 
 </div>
