@@ -7,17 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33d7e922-036d-457a-a73b-e873727e8d10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/WLQ.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/NewsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/NewsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reg.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/SubjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/SubjectController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/SubjectMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/SubjectMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/Subject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/SubjectService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/SubjectService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/SubjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/SubjectServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/club/wlqzz/mapper/SubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/club/wlqzz/mapper/UserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/DateFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/DateFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/Md5Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/Md5Class.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/C.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addNews.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addSubject.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addSubject.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp" afterDir="false" />
@@ -26,89 +37,16 @@
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateNews.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateNews.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateSubject.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateSubject.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/new_file.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/newsSystem.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/controller/SubjectController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/controller/SubjectController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/dao/SubjectMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/dao/SubjectMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/dao/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/mapper/SubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/pojo/News.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/pojo/News.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/pojo/Subject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/pojo/Subject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/pojo/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/service/SubjectService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/service/SubjectService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/service/UserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/service/impl/SubjectServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/service/impl/SubjectServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/util/format/DateFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/util/format/DateFormatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/club/wlqzz/util/format/Md5Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/club/wlqzz/util/format/Md5Class.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/spring/spring-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/C.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/CSS/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/META-INF/newsSystem.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/controller/SubjectController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/dao/SubjectMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/mapper/SubjectMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/mapper/UserMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/pojo/News.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/pojo/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/pojo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/service/SubjectService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/service/impl/SubjectServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/util/format/DateFormatter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/club/wlqzz/util/format/Md5Class.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/jdbc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/mybatis-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/spring/spring-config.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/classes/spring/spring-mvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/c3p0-0.9.5.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/commons-fileupload-1.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/commons-io-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/commons-logging-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/jackson-annotations-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/log4j-1.2.17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/mchange-commons-java-0.2.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/mybatis-3.4.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/mybatis-spring-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/mysql-connector-java-5.1.38.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/servlet-api-3.0-alpha-1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-aop-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-beans-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-context-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-core-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-expression-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-jdbc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-tx-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-web-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/spring-webmvc-4.3.18.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/addNews.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/addSubject.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/list.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/login.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/top.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/updateNews.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/pages/updateSubject.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/img/1.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/img/2.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/img/logo.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/newsSystem/new_file.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -136,54 +74,14 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3912">
-              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestSQl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="21" column="54" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="54" />
-              <folding>
-                <element signature="e#1017#1033#0" expanded="true" />
-                <element signature="e#1015#1028#0" expanded="true" />
-                <element signature="e#1127#1145#0" expanded="true" />
-                <element signature="e#1188#1206#0" expanded="true" />
-                <element signature="e#1279#1295#0" expanded="true" />
-                <element signature="e#1341#1357#0" expanded="true" />
-                <element signature="e#1466#1486#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -205,40 +103,45 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/Subject.java" />
         <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/Subject.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/SubjectMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/SubjectService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/SubjectServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/club/wlqzz/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/SubjectController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/club/wlqzz/mapper/SubjectMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/News.java" />
         <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/DateFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/html/index_sidebar.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/C.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/new_file.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addNews.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addSubject.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateSubject.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/q.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp" />
         <option value="$PROJECT_DIR$/target/newsSystem/CSS/style.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateNews.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestSQL.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/test/java/TestSQl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/filter/EncodingFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reg.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/filter/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/SubjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/SubjectService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addSubject.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/SubjectMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateSubject.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/SubjectController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/News.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/NewsImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/dao/NewsMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addNews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateNews.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/club/wlqzz/controller/NewsController.java" />
       </list>
     </option>
   </component>
@@ -273,15 +176,14 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="newsSystem Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-5" />
-    <option name="y" value="2" />
+    <option name="x" value="-9" />
     <option name="width" value="1346" />
     <option name="height" value="688" />
   </component>
@@ -292,6 +194,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,65 +202,25 @@
               <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
               <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="newsSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newsSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/SSM" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -368,6 +231,8 @@
       <recent name="C:\Users\WLQ\IdeaProject\newsSystem\src\main\webapp\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\WLQ\IdeaProject\newsSystem\src\main\resources\spring" />
+      <recent name="C:\Users\WLQ\IdeaProject\newsSystem\src\main\resources" />
       <recent name="C:\Users\WLQ\IdeaProject\newsSystem\src\main\resources\mapper" />
       <recent name="C:\Users\WLQ\IdeaProject\newsSystem\src\main\webapp\WEB-INF" />
     </key>
@@ -384,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSQl.testDemo1">
+  <component name="RunManager" selected="Tomcat Server.news">
     <configuration name="All in newsSystem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="newsSystem" />
       <option name="PACKAGE_NAME" value="" />
@@ -597,50 +462,67 @@
       <workItem from="1564915862347" duration="6969000" />
       <workItem from="1564924543453" duration="5244000" />
       <workItem from="1564933114697" duration="287000" />
-      <workItem from="1564964191308" duration="4339000" />
+      <workItem from="1564964191308" duration="6660000" />
+      <workItem from="1564974617040" duration="1749000" />
+      <workItem from="1564991820745" duration="654000" />
+      <workItem from="1565002639656" duration="7397000" />
+      <workItem from="1565011327566" duration="7898000" />
+      <workItem from="1565050989850" duration="10147000" />
+      <workItem from="1565071035062" duration="1213000" />
+      <workItem from="1565141259056" duration="1171000" />
+      <workItem from="1565143838425" duration="638000" />
+      <workItem from="1565159291603" duration="39000" />
+      <workItem from="1565175665947" duration="5338000" />
     </task>
+    <task id="LOCAL-00001" summary="测试">
+      <created>1564968602290</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564968602290</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSQl_testDemo1 - 2019.08.04 at 23h 15m 31s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 16m 04s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.04 at 23h 18m 20s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 27m 31s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.04 at 23h 27m 01s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 29m 26s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.04 at 23h 29m 25s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 52m 09s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 08h 17m 09s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 56m 06s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 08h 26m 27s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 57m 57s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 08h 54m 47s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 19h 58m 30s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 09h 14m 27s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 20h 04m 09s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 09h 14m 47s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 20h 07m 14s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 09h 15m 11s.xml">
+    <history-entry file="TestSQl_testDemo1 - 2019.08.05 at 20h 07m 58s.xml">
       <configuration name="TestSQl.testDemo1" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64379000" />
+    <option name="totallyTimeSpent" value="102944000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2065053" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -649,8 +531,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.04918033" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.09508197" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13934426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -659,7 +541,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.48032787" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.23114754" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.18196721" />
@@ -729,85 +611,11 @@
       </list>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SubjectMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/SubjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#358#359#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#769#770#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/News.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-          <folding>
-            <element signature="e#119#120#0" expanded="true" />
-            <element signature="e#144#145#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/SubjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/DateFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/Md5Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/2.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/login.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/1.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/logo.JPG">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/addNews.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/index_sidebar.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/addSubject.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/updateNews.html" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/html/updateSubject.html" />
@@ -822,83 +630,12 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/new_file.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/C.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/dao/mapper/UserMapper.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/controller/SubjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addSubject.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="51" lean-forward="true" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateSubject.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/q.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="11" column="102" selection-start-line="11" selection-start-column="102" selection-end-line="11" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/newsSystem/css/style.css" />
     <entry file="file://$PROJECT_DIR$/src/test/java/TestDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateNews.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
-          <folding>
-            <element signature="e#685#691#0#HTML" expanded="true" />
-            <element signature="e#691#697#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.2.RELEASE/spring-beans-5.0.2.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -944,82 +681,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/filter/EncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" selection-start-column="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="34" selection-start-line="22" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3912">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestSQl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1028,18 +691,270 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="22" column="34" selection-start-line="22" selection-end-line="22" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestSQl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="15" column="11" selection-start-line="9" selection-start-column="7" selection-end-line="15" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/util/format/Md5Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="124" column="38" selection-start-line="124" selection-start-column="38" selection-end-line="124" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="81">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
-            <element signature="e#1017#1033#0" expanded="true" />
-            <element signature="e#1015#1028#0" expanded="true" />
-            <element signature="e#1127#1145#0" expanded="true" />
-            <element signature="e#1188#1206#0" expanded="true" />
-            <element signature="e#1279#1295#0" expanded="true" />
-            <element signature="e#1341#1357#0" expanded="true" />
-            <element signature="e#1466#1486#0" expanded="true" />
+            <element signature="e#843#859#0" expanded="true" />
+            <element signature="e#901#914#0" expanded="true" />
+            <element signature="e#953#971#0" expanded="true" />
+            <element signature="e#1014#1032#0" expanded="true" />
+            <element signature="e#1105#1121#0" expanded="true" />
+            <element signature="e#1167#1183#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/pojo/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/SubjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/controller/SubjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateSubject.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="11" column="99" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/dao/SubjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/reg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addSubject.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/SubjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/service/impl/NewsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#500#501#0" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#799#800#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/controller/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/updateNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/addNews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/club/wlqzz/dao/NewsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1050,10 +965,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>newsSystem:war</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1061,6 +978,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1083,6 +1001,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1094,12 +1013,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>newsSystem</last-edited>
+          <last-edited>Spring|newsSystem</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1119,6 +1037,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: javax.servlet:javax.servlet-api:3.1.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -2,12 +2,12 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans
-       http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/springtx.xsd">
 
+    <!--配合MyBatis-->
+    <!--配置数据库参数-->
     <context:property-placeholder location="classpath:jdbc.properties"/>
-    <context:component-scan base-package="club.wlqzz.service"/>
-
+    <!--数据库连接池-->
     <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
         <!--配置连接池属性-->
         <property name="driverClass" value="${jdbc.driver}"/>
@@ -27,7 +27,6 @@
         <!--注入数据库连接池-->
         <property name="dataSource" ref="dataSource"/>
     </bean>
-
     <!-- 配置扫描 dao 接⼝包， 动态实现 dao 接⼝， 注⼊到 Spring 容器中 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- 注⼊ sqlSessionFactory -->
@@ -35,6 +34,9 @@
         <!-- 给出需要扫描 dao 接⼝包 -->
         <property name="basePackage" value="club.wlqzz.dao"/>
     </bean>
+    <!--spring-service-->
+    <!-- 扫描 service 包下所有使⽤注解的类型 -->
+    <context:component-scan base-package="club.wlqzz.service"/>
 
     <!-- 配置事务管理器 -->
     <bean id="transactionManager"
@@ -42,5 +44,4 @@
         <!-- 注⼊数据库连接池 -->
         <property name="dataSource" ref="dataSource"/>
     </bean>
-
 </beans>

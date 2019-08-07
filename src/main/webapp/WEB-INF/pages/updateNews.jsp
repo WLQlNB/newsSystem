@@ -9,23 +9,24 @@
 <html>
 <head>
     <title>编辑新闻</title>
-
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/style.css">
 </head>
 <body>
 <div class="an">
     <fieldset class="g"><font size="3" color="white">修改新闻</font></fieldset>
-    <form action="" method="post">
-        新闻名称:<input type="text" name="newsname"><br/><br/>
-        新闻内容<br><textarea class="addnews"></textarea><br>
+    <form action="${pageContext.request.contextPath}/news/doUpdateNews" method="post">
+        新闻序号：<input type="text" name="newsId"><br/><br/>
+        新闻名称:<input type="text" name="newsTitle"><br/><br/>
+        新闻内容<br><textarea class="addnews" name="newsContext"></textarea><br>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
     </form>
     <br>
     <hr>
     <br/>
-    <form action="" method="post">
+    <form action="${pageContext.request.contextPath}/news/doDeleteNews" method="post">
         <fieldset class="g"><font size="3" color="white">删除新闻</font></fieldset>
-        新闻名称:<input type="text" name="newsjname"><br/><br/>
+        新闻名称:<input type="text" name="dTitle"><br/><br/>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
     </form>

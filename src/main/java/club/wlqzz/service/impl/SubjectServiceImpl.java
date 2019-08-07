@@ -15,27 +15,22 @@ public class SubjectServiceImpl implements SubjectService {
     @Autowired
     private SubjectMapper subjectMapper;
 
-    @Override
     public void addSubject(Subject subject) {
         subjectMapper.addSubject(subject);
     }
 
-    @Override
-    public void deleSubject(Subject subject) {
-        subjectMapper.deleSubject(subject);
+    public void deleteSubject(Subject subject) {
+        subjectMapper.deleteSubject(subject);
     }
 
-    @Override
     public void updateSubject(Subject subject) {
         subjectMapper.updateSubject(subject);
     }
 
-    @Override
     public Subject selectSubject(Subject subject) {
         return subjectMapper.selectSubject(subject);
     }
 
-    @Override
     public List<Subject> getAllSubjects() {
         return subjectMapper.getAllSubjects();
     }

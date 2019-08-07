@@ -12,21 +12,24 @@
     <link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath }/css/style.css" />
 </head>
 <body>
+    <%
+        String id=request.getParameter("id");
+    %>
 <%@ include file="top.jsp" %>
 <div class="i">
     <fieldset class="a">
-        管理员：<a href="login.html">登录</a>
-        <a href="">退出</a>
+        管理员：<%=id%>
+        <a href="${pageContext.request.contextPath }/user/login">退出</a>
     </fieldset>
 </div>
 
 <div id="contain">
     <div class="b">
         <ul>
-            <li><a href="addNews.html" target="htmlform">添加新闻</a></li>
-            <li><a href="updateNews.html" target="htmlform">编辑新闻</a></li>
-            <li><a href="addSubject.html" target="htmlform">添加主题</a></li>
-            <li><a href="updateSubject.html" target="htmlform">编辑主题</a></li>
+            <li><a href="${pageContext.request.contextPath }/news/addNews" target="htmlform">添加新闻</a></li>
+            <li><a href="${pageContext.request.contextPath }/news/updateNews" target="htmlform">编辑新闻</a></li>
+            <li><a href="${pageContext.request.contextPath }/subject/addSubject" target="htmlform">添加主题</a></li>
+            <li><a href="${pageContext.request.contextPath }/subject/updateSub" target="htmlform">编辑主题</a></li>
         </ul>
     </div>
     <div id="content">

@@ -13,9 +13,8 @@
 </head>
 <body>
 <div class="an">
-    <form action="" method="post">
-        主题名称:<input type="text" name="newsname"><br/><br/>
-        主题内容<br><textarea class="addnews"></textarea><br>
+    <form action="${pageContext.request.contextPath}/subject/doAddS" method="post">
+        主题名称:<input type="text" name="subName"><br/><br/>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
     </form>

@@ -14,9 +14,9 @@
 <body>
 <%@ include file="top.jsp" %>
 <div class="an">
-    <form action="" method="post">
-        新闻名称:<input type="text" name="newsname"><br/><br/>
-        新闻内容<br><textarea class="addnews"></textarea><br>
+    <form action="${pageContext.request.contextPath}/news/doAddNews" method="post">
+        新闻名称:<input type="text" name="newsName"><br/><br/>
+        新闻内容<br><textarea class="addNews" name="nContext"></textarea><br>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
     </form>

@@ -15,19 +15,19 @@
 <div class="an">
     <fieldset class="g"><font size="3" color="white">修改主题</font></fieldset>
     <br/>
-    <form action="" method="post">
-        主题名称:<input type="text" name="subname"><br/><br/>
-        主题内容<br><textarea class="addnews"></textarea><br>
+    <form action="${pageContext.request.contextPath}/subject/doUpdateSub" method="post">
+        原主题序号: <input type="text" name="subId"><br/><br/>
+        新主题名称：<input type="text" name="subTitle"><br/><br/>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
     </form>
     <br>
     <hr>
     <br/>
-    <form action="" method="post">
+    <form action="${pageContext.request.contextPath}/subject/doDeleteSub" method="post">
         <fieldset class="g"><font size="3" color="white">删除主题</font></fieldset>
         <br/>
-        主题名称:<input type="text" name="subjname"><br/><br/>
+        主题名称:<input type="text" name="dTitle"><br/><br/>
         <input type="submit" value="提交"/>
         <input type="reset" value="重置"/>
     </form>

@@ -14,19 +14,13 @@
 </head>
 <body>
 <%@include file="top.jsp"%>
-<script type="text/javascript">
-    function reg(){
-
-    }
-</script>
-
 <form action="${pageContext.request.contextPath }/user/doLogin" method="post">
     <div class="login">
         <tr>
             用户名:<input type="text" name="id" placeholder="请输入用户名" >
             密&nbsp;&nbsp;码：<input type="text" name="pwd" placeholder="请输入密码">
             <input type="submit" value="登录"/>
-            <button type="button" onclick="reg()">注册</button>
+            <button type="button" onclick="window.location.href='${pageContext.request.contextPath }/user/reg'">注册</button>
         </tr>
     </div>
 </form>
